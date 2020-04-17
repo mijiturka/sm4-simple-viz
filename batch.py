@@ -3,7 +3,7 @@ from matplotlib import pyplot
 import glob
 import os
 
-for file_path in glob.iglob('./inputs/*.SM4'):
+for file_path in glob.iglob('./inputs/*.[Ss][Mm]4'):
     file = rhksm4.load(file_path)
 
     for page in file:
