@@ -46,8 +46,9 @@ Create some folders:
 (venv) mkdir inputs outputs
 ```
 
-Place some SM4 files in the `inputs` folder and run:
+Place some SM4 files in the `inputs` folder
 
+Run:
 ```
 (venv) python batch.py
 ```
